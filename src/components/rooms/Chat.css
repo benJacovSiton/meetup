@@ -1,0 +1,108 @@
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.backgroundHeder-color1{
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);  
+}
+.backgroundHeder-color2{
+background-color: #4d4855;
+background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+}
+.backgroundHeder-color3{
+  background-color: #d7d7d7;
+  background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);  
+}
+.backgroundInput-color1{
+  background-color: #6daddb;
+  background-image: linear-gradient(315deg, #6daddb 0%, #313131 74%);
+}
+.backgroundInput-color2{
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+  
+}
+.backgroundInput-color3{
+  background-color: #090947;
+  background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
+  
+}
+.backgroundRandom-color1{
+  background-color: #2234ae;
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);  
+}
+.backgroundRandom-color2{
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);  
+}
+.backgroundRandom-color3{
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+.backgroundSender-color1{
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
+}
+.backgroundSender-color2{
+  background-color: #e96196;
+  background-image: linear-gradient(315deg, #e96196 0%, #ffffff 74%);
+}
+.backgroundSender-color3{
+  background-color: #ddcad9;
+  background-image: linear-gradient(315deg, #ddcad9 0%, #d1b1cb 74%);
+}
+
+
+
+.container {
+  height: calc(100vh - 70px); /* Adjust based on header height (navbar) */
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  position: fixed;
+  top: fixed; /* Adjust based on header height (navbar) */
+  left: fixed; /* Adjust based on sidebar width */
+  right: fixed;
+  bottom: fixed;
+  padding: 10px; /* Add padding for spacing */
+}
+
+.card {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+  padding: 5px;
+}
+
+.userMessage {
+  text-align: right;
+}
+
+.inputContainer {
+  display: flex;
+  padding: 10px; /* Add padding for spacing */
+}
+
+.inputField {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  background-color: #1a1a1a; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+/* Additional styles to reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}

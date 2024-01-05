@@ -1,0 +1,46 @@
+/* MainNavigation.module.css */
+
+.header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* Light text color for links */
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffcc00; /* Yellow color on hover */
+}
+
+.badge {
+  background-color: #ffcc00; /* Yellow background color for the badge */
+  color: #333; /* Dark text color for the badge */
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+}
+
+
